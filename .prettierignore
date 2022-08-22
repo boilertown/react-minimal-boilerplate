@@ -1,6 +1,5 @@
 build
 dist
-storybook-static
 
 # debug
 npm-debug.log*

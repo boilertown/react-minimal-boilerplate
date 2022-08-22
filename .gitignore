@@ -2,12 +2,6 @@
 node_modules
 build
 dist
-storybook-static
-
-# e2e
-test-results
-playwright-report
-playwright/.cache
 
 # debug
 npm-debug.log*
@@ -17,7 +11,5 @@ yarn-error.log*
 
 # misc
 .env
+.env.local
 .DS_Store
-.turbo
-
-coverage

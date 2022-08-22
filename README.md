@@ -9,14 +9,14 @@
 
 ## Introduction
 
-The goal of this boilerplate is to maximize your effectiveness by present you:
+This setup is simplier than [react-nostalgia-boilerplate](https://github.com/boilertowns/react-nostalgia-boilerplate) version.
 
-- 🚀 A good application structure which is simple, scalable and easy to maintain.
-- 🔥 Give you best and hot tools in the ecosystem to manage the workflows.
-- ⚡️ Easy to customize your workflows. You will have all the granular control over all the operations.
-- 🧑‍💻 Improve your Developer eXperience (DX). You can just focus on coding and press Save button.
+- Use `Vite` to develop locally and create bundle for production.
+- Use `Vitest` to perform Unit test.
 
-This setup is _opinionated_ as it is based on my experience of working with difference React projects. It works very well to me and my team and I hope I can make you feel the same.
+This boilerplate by default, targets browsers which support the native ES Modules, native ESM dynamic import, and `import.meta`. You can specify custom targets via [Vite build.target config option](https://vitejs.dev/config/build-options.html#build-target), where the lowest target is `es2015`.
+
+The setup is _opinionated_ as it is based on my experience of working with difference React projects. It works very well to me and my team. I hope I can make you feel the same.
 
 ## The Setup
 
