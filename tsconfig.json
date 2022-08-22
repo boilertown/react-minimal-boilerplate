@@ -28,7 +28,7 @@
 		"allowJs": false,
 		"types": ["vite/client", "vitest/globals"]
 	},
-	"include": ["src"],
+	"include": ["src", "setupTests.ts"],
 	"exclude": ["node_modules", "build"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -12,4 +13,10 @@ export default defineConfig({
 		port: 2023,
 	},
 	plugins: [react(), tsconfigPaths(), VitePWA({ registerType: 'autoUpdate' })],
+	test: {
+		include: ['**/__tests__/**'],
+		environment: 'jsdom',
+		globals: true,
+		setupFiles: ['setupTests.ts'],
+	},
 });
