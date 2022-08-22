@@ -1,18 +1,25 @@
-import * as Sc from './HomeWelcome.styled';
-
 export const HomeWelcome = () => {
 	return (
 		<>
-			<Sc.Figure>
-				<img src="/launch.png" alt="A rocket is being launched" />
-				<figcaption>
+			<figure>
+				<img
+					className="text-center mx-auto py-4 block max-w-xs"
+					src="/launch.png"
+					alt="A rocket is being launched"
+				/>
+				<figcaption className="text-gray-400 text-sm text-center">
 					Illustration by{' '}
-					<a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">
+					<a
+						className="text-gray-400 underline"
+						href="https://icons8.com/illustrations/author/zD2oqC8lLBBA"
+					>
 						Icons 8
 					</a>
 				</figcaption>
-			</Sc.Figure>
-			<Sc.Heading>Welcome to Boilertowns</Sc.Heading>
+			</figure>
+			<h1 className="text-3xl text-center	font-bold my-4">
+				Welcome to Boilertowns
+			</h1>
 		</>
 	);
 };

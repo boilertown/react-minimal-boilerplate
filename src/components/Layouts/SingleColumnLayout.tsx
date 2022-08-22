@@ -1,5 +1,3 @@
-import * as Sc from './SingleColumnLayout.styled';
-
 interface SingleColumnLayoutProps {
 	renderHeader: React.ReactNode;
 	renderMain: React.ReactNode;
@@ -14,7 +12,7 @@ export const SingleColumnLayout = (props: SingleColumnLayoutProps) => {
 		<>
 			<header>{props.renderHeader}</header>
 			<main>
-				<Sc.Container>{props.renderMain}</Sc.Container>
+				<div className="container mx-auto my-0">{props.renderMain}</div>
 			</main>
 			<footer>{props.renderFooter}</footer>
 		</>
