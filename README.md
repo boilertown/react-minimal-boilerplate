@@ -90,7 +90,6 @@ This boilerplate uses [GitHub Actions](https://github.com/features/actions) to p
 [react-router-url]: https://reactrouter.com
 [typescript-url]: https://www.typescriptlang.org
 [eslint-url]: https://eslint.org
-[commitlint-url]: https://github.com/conventional-changelog/commitlint
 [prettier-url]: https://prettier.io
 [testing-library-url]: https://testing-library.com
 [vite-url]: https://vitejs.dev
