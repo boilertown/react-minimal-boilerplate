@@ -4,8 +4,8 @@
 		"paths": {
 			"*": ["src/*"]
 		},
-		"module": "esnext",
-		"moduleResolution": "node",
+		"module": "ESNext",
+		"moduleResolution": "Node",
 		"jsx": "react-jsx",
 		"sourceMap": true,
 		"strict": true,

@@ -25,7 +25,6 @@ The setup is _opinionated_ as it is based on my experience of working with diffe
 - [TypeScript][typescript-url]
 - Unit test with [Testing-library][testing-library-url]
 - Linting with [Eslint][eslint-url] and code formatting with [Prettier][prettier-url]
-- Conventional commit messages with [Commitlint][commitlint-url]
 - Develop and build production with [Vite][vite-url]
 
 ## Get Started
