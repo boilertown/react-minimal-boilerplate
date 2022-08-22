@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { describe, test, expect } from 'vitest';
 import { Counter } from '../index';
 
 describe('Counter', () => {

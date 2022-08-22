@@ -1,6 +1,5 @@
 module.exports = {
 	root: true,
-	parser: '@typescript-eslint/parser',
 	extends: [
 		'eslint:recommended',
 		'plugin:react/recommended',
@@ -10,7 +9,6 @@ module.exports = {
 	env: {
 		browser: true,
 		node: true,
-		jest: true,
 		es6: true,
 	},
 	parserOptions: {
@@ -25,6 +23,13 @@ module.exports = {
 			version: 'detect',
 		},
 	},
+	overrides: [
+		{
+			files: ['*.ts', '*.tsx'],
+			parser: '@typescript-eslint/parser',
+			extends: ['plugin:@typescript-eslint/recommended'],
+		},
+	],
 	rules: {
 		'react/jsx-no-bind': 'off',
 		'react/jsx-uses-react': 'off',

@@ -11,7 +11,8 @@
 		"build": "vite build",
 		"dev": "vite",
 		"serve": "vite preview",
-		"test": "vitest"
+		"test": "vitest",
+		"lint": "eslint . --ext .ts,.tsx,.js,.jsx"
 	},
 	"browserslist": [
 		"defaults",

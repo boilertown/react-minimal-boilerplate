@@ -1,4 +1,4 @@
-/// <reference types="vite/client" />
+/* eslint-disable  */
 
 interface ImportMetaEnv {
 	readonly VITE_BASE_URL: string;

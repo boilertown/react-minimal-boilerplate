@@ -26,9 +26,9 @@
 		"isolatedModules": true,
 		"useUnknownInCatchVariables": false,
 		"allowJs": false,
-		"types": ["vite/client", "vitest/globals"]
+		"types": ["vite/client"]
 	},
 	"include": ["src", "setupTests.ts"],
 	"exclude": ["node_modules", "build"],
-	"references": [{ "path": "./tsconfig.node.json" }]
+	"references": [{ "path": "./tsconfig.vite.json" }]
 }
