@@ -21,7 +21,7 @@
 		"esModuleInterop": true,
 		"useDefineForClassFields": true,
 		"lib": ["ES2020", "DOM"],
-		"target": "es5",
+		"target": "ES2021",
 		"skipLibCheck": true,
 		"isolatedModules": true,
 		"useUnknownInCatchVariables": false,
