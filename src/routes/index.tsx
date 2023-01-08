@@ -1,4 +1,4 @@
-import type { RouteObject } from 'react-router-dom';
+import { RouteObject, useRoutes } from 'react-router-dom';
 import { NotFoundPage } from 'pages/404';
 import { HomePage } from 'pages/home';
 
@@ -13,3 +13,8 @@ export const routes: RouteObject[] = [
 		element: <NotFoundPage />,
 	},
 ];
+
+export const AppRoutes = () => {
+	const element = useRoutes(routes);
+	return element;
+};
